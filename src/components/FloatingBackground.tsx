@@ -59,7 +59,7 @@ export const FloatingBackground = () => {
     }, []);
 
     return (
-        <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
+        <div className="fixed inset-0 pointer-events-none overflow-hidden z-0 hidden md:block">
             {circles.map((circle) => (
                 <div
                     key={circle.id}
