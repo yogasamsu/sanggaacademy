@@ -20,10 +20,10 @@ export const FloatingBackground = () => {
                 id: i,
                 x: Math.random() * 100,
                 y: Math.random() * 100,
-                size: Math.random() * 400 + 150,
-                speedX: (Math.random() - 0.5) * 0.15,
-                speedY: (Math.random() - 0.5) * 0.15,
-                opacity: Math.random() * 0.12 + 0.03,
+                size: Math.random() * 500 + 200,
+                speedX: (Math.random() - 0.5) * 0.5,
+                speedY: (Math.random() - 0.5) * 0.5,
+                opacity: Math.random() * 0.15 + 0.05,
             }));
         };
 
