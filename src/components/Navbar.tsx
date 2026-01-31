@@ -22,15 +22,17 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-10 h-10 rounded-xl bg-primary-gradient flex items-center justify-center shadow-md group-hover:shadow-glow transition-shadow">
-              <GraduationCap className="w-6 h-6 text-primary-foreground" />
-            </div>
+            <img 
+              src="/sanggabiz-logo.png" 
+              alt="SanggaBiz Logo" 
+              className="w-10 h-10 object-contain transition-transform group-hover:scale-105" 
+            />
             <div className="flex flex-col">
               <span className="font-bold text-lg text-foreground leading-tight">
                 Sangga<span className="text-primary">Academy</span>
               </span>
               <span className="text-[10px] text-muted-foreground leading-tight">
-                by Sanggabiz
+                Platform belajar yang fun
               </span>
             </div>
           </Link>
